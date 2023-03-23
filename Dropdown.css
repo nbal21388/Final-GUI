@@ -1,0 +1,181 @@
+.Dropdown
+{
+
+    width:340px;
+    height:300px;
+    overflow-wrap: break-word;
+    display:flex;
+    padding-top:2.3em;
+    padding-left:2.7em;
+    padding-right:1.9em;
+    flex-wrap:wrap;
+    background-color: rgba(43, 26, 26, 0.988);
+    border-radius: 24px;
+    margin-left:0.3em;
+   
+  
+    
+   
+    
+   
+}
+.Dropdown p{
+    color:white;
+    display:flex;
+    flex-direction:column;
+    text-align: center;
+    width:100px;
+    height:80px;
+    padding-right:0.7em;
+ 
+}
+
+
+.temp-time
+{
+    
+    font-weight: bold;
+    position:relative;
+    top:-8.5em;
+    
+}
+
+.temp-time2
+{
+  font-weight:bold;
+  position:relative;
+  top:-9.5em;
+}
+
+
+.temp-description
+{
+  position:relative;
+  top:-1.7em;
+
+}
+
+.temp-temperature
+{
+    position:relative;
+    top:-0.7em;
+}
+
+
+
+
+select
+{
+    position: absolute;
+    left:25.4em;
+    top:38.7em;
+    border-radius:25px;
+    text-indent:1.7px;
+   
+    
+}
+
+nav {
+    background-color: #2f2f2f;
+    padding: 15px;
+    padding-left:0.3px;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    
+    
+    
+    
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    padding-right:4em;
+  }
+  
+  nav li {
+    list-style: none;
+    
+    
+    
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.2s;
+    
+    margin-left:1.9em;
+    
+
+    
+    
+  }
+  
+  nav a:hover {
+    color: #f4c430;
+  }
+
+  .favicon
+  {
+
+position: relative;
+left:23.5em;
+  }
+
+
+ .searchbar
+ {
+  position:relative;
+  left:2.1em;
+ }
+
+ .searchicon
+ {
+  position:relative;
+  bottom:41.2em;
+
+  margin-left:21.0em;
+ }
+ 
+.suggestions
+{
+  background-color:grey;
+  
+  
+  color:white;
+  
+  
+  
+}
+
+.suggestionsbox
+{
+ 
+  width:11.1em;
+  position:absolute;
+  left:11.5em;
+  top:2.60em;
+  z-index:9999;
+ 
+}
+
+.cross
+{
+ 
+  position:absolute;
+  top:1.3em;
+}
+
+
+
+
+
+
